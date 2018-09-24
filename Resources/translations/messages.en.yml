@@ -1,0 +1,7 @@
+
+united:
+    one:
+        upload:
+            drop_file: Drop file here
+            select_file: Select a file
+            or: Or

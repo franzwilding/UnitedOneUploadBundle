@@ -1,0 +1,26 @@
+{
+  "name": "franzwilding/united-one-upload-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony file upload type for United CMS",
+  "keywords": [
+    "CMS",
+    "Content Management",
+    "File Upload",
+    "Form",
+    "Type"
+  ],
+  "homepage": "https://github.com/franzwilding/UnitedOneUploadBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Franz Wilding",
+      "email": "franz@2robots.at"
+    }
+  ],
+  "require": {
+    "symfony/symfony": "2.*"
+  },
+  "autoload": {
+    "psr-4": {"United\\OneUploadBundle\\": ""}
+  }
+}

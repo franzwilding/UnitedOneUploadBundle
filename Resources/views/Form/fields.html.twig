@@ -1,0 +1,27 @@
+{%- block united_file_widget -%}
+
+    {{- form_label(form) -}}
+
+    <div class="united-one-upload-widget ui secondary segment center aligned"{{ form.vars.widget_data|raw }} style="margin-top: 0;">
+
+        <div class="ui top attached green progress">
+            <div class="bar"></div>
+        </div>
+
+        {{- block('form_widget_compound') -}}
+
+        <div class="select-widget">
+            <p><label>{% trans %}united.one.upload.drop_file{% endtrans %}</label></p>
+
+            <div class="ui horizontal divider">{% trans %}united.one.upload.or{% endtrans %}</div>
+
+            <div class="ui positive labeled icon button">
+                <i class="upload icon"></i>{% trans %}united.one.upload.select_file{% endtrans %}
+                <input style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; overflow: hidden; width: 100%; opacity: 0; cursor: pointer;" type="file"/>
+            </div>
+        </div>
+
+        <div class="preview-widget">
+        </div>
+    </div>
+{%- endblock -%}

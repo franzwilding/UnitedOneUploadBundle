@@ -1,0 +1,11 @@
+services:
+
+    united.one.upload.file.type:
+        class: United\OneUploadBundle\Form\Type\FileType
+        tags:
+            - { name: form.type, alias: 'united_file' }
+
+    united.one.upload.cloudinary.file.type:
+        class: United\OneUploadBundle\Form\Type\CloudinaryFileType
+        tags:
+            - { name: form.type, alias: 'united_cloudinary_file' }
