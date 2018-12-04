@@ -17,9 +17,6 @@
       "email": "franz@2robots.at"
     }
   ],
-  "require": {
-    "symfony/symfony": "2.*"
-  },
   "autoload": {
     "psr-4": {"United\\OneUploadBundle\\": ""}
   }
